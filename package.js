@@ -1,12 +1,8 @@
 Package.describe({
   name: 'jackkav:xpath',
   version: '0.0.9',
-  // Brief, one-line summary of the package.
   summary: 'Wrapper for xpath and dom npm packages',
-  // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/jackkav/meteor-xpath',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 
