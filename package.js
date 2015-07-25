@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jackkav:xpath',
-  version: '0.0.10',
+  version: '0.0.11',
   summary: 'Wrapper for xpath and dom npm packages',
   git: 'https://github.com/jackkav/meteor-xpath',
   documentation: 'README.md'
@@ -8,7 +8,7 @@ Package.describe({
 
 Npm.depends({
   'xpath': '0.0.9',
-  'xmldom': '0.1.19',
+  'tensor-xmldom': '0.2.0-b8',
 });
 
 Package.onUse(function(api) {
